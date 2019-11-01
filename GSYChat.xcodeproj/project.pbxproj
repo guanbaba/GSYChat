@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D566436E2AA0102726F56E5 /* Pods_GSYChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3742A77AE14D7A29BD03085 /* Pods_GSYChat.framework */; };
+		F594A1E6235D642F0010DF91 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F594A1E5235D642F0010DF91 /* ContactModel.m */; };
+		F594A1E9235D65EC0010DF91 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F594A1E8235D65EC0010DF91 /* UserModel.m */; };
+		F59DD1E5235EEC7600D03529 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD1E4235EEC7600D03529 /* RegisterViewController.m */; };
+		F59DD1E923618E2000D03529 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD1E823618E2000D03529 /* AddContactViewController.m */; };
+		F59DD1ED236AE3C600D03529 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD1EC236AE3C600D03529 /* ChatViewController.m */; };
+		F5ABC48623570F02004C310D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABC48423570F02004C310D /* LoginViewController.m */; };
+		F5ABC48A235725F6004C310D /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABC489235725F6004C310D /* XMPPManager.m */; };
+		F5ABC48E23581988004C310D /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABC48D23581988004C310D /* ContactsListViewController.m */; };
+		F5ABC491235819BA004C310D /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABC490235819BA004C310D /* ContactTableViewCell.m */; };
+		F5BB20812356BAAF0041BFA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB20802356BAAF0041BFA5 /* AppDelegate.m */; };
+		F5BB20842356BAAF0041BFA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB20832356BAAF0041BFA5 /* ViewController.m */; };
+		F5BB20892356BAB10041BFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BB20882356BAB10041BFA5 /* Assets.xcassets */; };
+		F5BB208C2356BAB10041BFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB208A2356BAB10041BFA5 /* LaunchScreen.storyboard */; };
+		F5BB208F2356BAB10041BFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB208E2356BAB10041BFA5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		964BD222C541754CEA5CD5E0 /* Pods-GSYChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSYChat.release.xcconfig"; path = "Target Support Files/Pods-GSYChat/Pods-GSYChat.release.xcconfig"; sourceTree = "<group>"; };
+		DB3CC5956A11F3872BA59E08 /* Pods-GSYChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSYChat.debug.xcconfig"; path = "Target Support Files/Pods-GSYChat/Pods-GSYChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E3742A77AE14D7A29BD03085 /* Pods_GSYChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSYChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F594A1E4235D642F0010DF91 /* ContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		F594A1E5235D642F0010DF91 /* ContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		F594A1E7235D65EC0010DF91 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		F594A1E8235D65EC0010DF91 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		F59DD1E3235EEC7600D03529 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F59DD1E4235EEC7600D03529 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F59DD1E723618E2000D03529 /* AddContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		F59DD1E823618E2000D03529 /* AddContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		F59DD1EB236AE3C600D03529 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		F59DD1EC236AE3C600D03529 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		F5ABC48423570F02004C310D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F5ABC48523570F02004C310D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F5ABC488235725F6004C310D /* XMPPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
+		F5ABC489235725F6004C310D /* XMPPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
+		F5ABC48C23581988004C310D /* ContactsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsListViewController.h; sourceTree = "<group>"; };
+		F5ABC48D23581988004C310D /* ContactsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsListViewController.m; sourceTree = "<group>"; };
+		F5ABC48F235819BA004C310D /* ContactTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		F5ABC490235819BA004C310D /* ContactTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		F5BB207C2356BAAF0041BFA5 /* GSYChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSYChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB207F2356BAAF0041BFA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5BB20802356BAAF0041BFA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5BB20822356BAAF0041BFA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5BB20832356BAAF0041BFA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5BB20882356BAB10041BFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BB208B2356BAB10041BFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5BB208D2356BAB10041BFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BB208E2356BAB10041BFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BB20792356BAAF0041BFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D566436E2AA0102726F56E5 /* Pods_GSYChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17936F764D80212FD8607BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB3CC5956A11F3872BA59E08 /* Pods-GSYChat.debug.xcconfig */,
+				964BD222C541754CEA5CD5E0 /* Pods-GSYChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAC33C44D43A1CB30BD7A386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3742A77AE14D7A29BD03085 /* Pods_GSYChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F594A1E3235D63E60010DF91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F594A1E4235D642F0010DF91 /* ContactModel.h */,
+				F594A1E5235D642F0010DF91 /* ContactModel.m */,
+				F594A1E7235D65EC0010DF91 /* UserModel.h */,
+				F594A1E8235D65EC0010DF91 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F59DD1E2235EEBDD00D03529 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD1E3235EEC7600D03529 /* RegisterViewController.h */,
+				F59DD1E4235EEC7600D03529 /* RegisterViewController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F59DD1EA236AE3A000D03529 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD1EB236AE3C600D03529 /* ChatViewController.h */,
+				F59DD1EC236AE3C600D03529 /* ChatViewController.m */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		F5ABC48323570F02004C310D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F5ABC48423570F02004C310D /* LoginViewController.m */,
+				F5ABC48523570F02004C310D /* LoginViewController.h */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F5ABC48723572554004C310D /* XMPPManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5ABC488235725F6004C310D /* XMPPManager.h */,
+				F5ABC489235725F6004C310D /* XMPPManager.m */,
+			);
+			path = XMPPManager;
+			sourceTree = "<group>";
+		};
+		F5ABC48B2358194B004C310D /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				F5ABC48C23581988004C310D /* ContactsListViewController.h */,
+				F5ABC48D23581988004C310D /* ContactsListViewController.m */,
+				F5ABC48F235819BA004C310D /* ContactTableViewCell.h */,
+				F5ABC490235819BA004C310D /* ContactTableViewCell.m */,
+				F59DD1E723618E2000D03529 /* AddContactViewController.h */,
+				F59DD1E823618E2000D03529 /* AddContactViewController.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		F5BB20732356BAAF0041BFA5 = {
+			isa = PBXGroup;
+			children = (
+				F5BB207E2356BAAF0041BFA5 /* GSYChat */,
+				F5BB207D2356BAAF0041BFA5 /* Products */,
+				B17936F764D80212FD8607BE /* Pods */,
+				EAC33C44D43A1CB30BD7A386 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BB207D2356BAAF0041BFA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB207C2356BAAF0041BFA5 /* GSYChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BB207E2356BAAF0041BFA5 /* GSYChat */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD1EA236AE3A000D03529 /* chat */,
+				F594A1E3235D63E60010DF91 /* Model */,
+				F5ABC48B2358194B004C310D /* Contacts */,
+				F5ABC48723572554004C310D /* XMPPManager */,
+				F59DD1E2235EEBDD00D03529 /* Register */,
+				F5ABC48323570F02004C310D /* Login */,
+				F5BB207F2356BAAF0041BFA5 /* AppDelegate.h */,
+				F5BB20802356BAAF0041BFA5 /* AppDelegate.m */,
+				F5BB20822356BAAF0041BFA5 /* ViewController.h */,
+				F5BB20832356BAAF0041BFA5 /* ViewController.m */,
+				F5BB20882356BAB10041BFA5 /* Assets.xcassets */,
+				F5BB208A2356BAB10041BFA5 /* LaunchScreen.storyboard */,
+				F5BB208D2356BAB10041BFA5 /* Info.plist */,
+				F5BB208E2356BAB10041BFA5 /* main.m */,
+			);
+			path = GSYChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BB207B2356BAAF0041BFA5 /* GSYChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BB20922356BAB10041BFA5 /* Build configuration list for PBXNativeTarget "GSYChat" */;
+			buildPhases = (
+				782E9CDCB2EAB83F7DD9E098 /* [CP] Check Pods Manifest.lock */,
+				F5BB20782356BAAF0041BFA5 /* Sources */,
+				F5BB20792356BAAF0041BFA5 /* Frameworks */,
+				F5BB207A2356BAAF0041BFA5 /* Resources */,
+				50536E8DC726BDCFAFBC02C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSYChat;
+			productName = GSYChat;
+			productReference = F5BB207C2356BAAF0041BFA5 /* GSYChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BB20742356BAAF0041BFA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = guanshiyu;
+				TargetAttributes = {
+					F5BB207B2356BAAF0041BFA5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F5BB20772356BAAF0041BFA5 /* Build configuration list for PBXProject "GSYChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = F5BB20732356BAAF0041BFA5;
+			productRefGroup = F5BB207D2356BAAF0041BFA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BB207B2356BAAF0041BFA5 /* GSYChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BB207A2356BAAF0041BFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BB208C2356BAB10041BFA5 /* LaunchScreen.storyboard in Resources */,
+				F5BB20892356BAB10041BFA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50536E8DC726BDCFAFBC02C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSYChat/Pods-GSYChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSYChat/Pods-GSYChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSYChat/Pods-GSYChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782E9CDCB2EAB83F7DD9E098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSYChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BB20782356BAAF0041BFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ABC48623570F02004C310D /* LoginViewController.m in Sources */,
+				F5ABC48E23581988004C310D /* ContactsListViewController.m in Sources */,
+				F59DD1ED236AE3C600D03529 /* ChatViewController.m in Sources */,
+				F5ABC491235819BA004C310D /* ContactTableViewCell.m in Sources */,
+				F5ABC48A235725F6004C310D /* XMPPManager.m in Sources */,
+				F5BB20842356BAAF0041BFA5 /* ViewController.m in Sources */,
+				F59DD1E5235EEC7600D03529 /* RegisterViewController.m in Sources */,
+				F59DD1E923618E2000D03529 /* AddContactViewController.m in Sources */,
+				F5BB208F2356BAB10041BFA5 /* main.m in Sources */,
+				F594A1E6235D642F0010DF91 /* ContactModel.m in Sources */,
+				F5BB20812356BAAF0041BFA5 /* AppDelegate.m in Sources */,
+				F594A1E9235D65EC0010DF91 /* UserModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5BB208A2356BAB10041BFA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BB208B2356BAB10041BFA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BB20902356BAB10041BFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5BB20912356BAB10041BFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BB20932356BAB10041BFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3CC5956A11F3872BA59E08 /* Pods-GSYChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSYChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanshiyu.GSYChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5BB20942356BAB10041BFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964BD222C541754CEA5CD5E0 /* Pods-GSYChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSYChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanshiyu.GSYChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BB20772356BAAF0041BFA5 /* Build configuration list for PBXProject "GSYChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB20902356BAB10041BFA5 /* Debug */,
+				F5BB20912356BAB10041BFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BB20922356BAB10041BFA5 /* Build configuration list for PBXNativeTarget "GSYChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB20932356BAB10041BFA5 /* Debug */,
+				F5BB20942356BAB10041BFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BB20742356BAAF0041BFA5 /* Project object */;
+}

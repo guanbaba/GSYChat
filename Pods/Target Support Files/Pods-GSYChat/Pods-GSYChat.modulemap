@@ -1,0 +1,6 @@
+framework module Pods_GSYChat {
+  umbrella header "Pods-GSYChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
